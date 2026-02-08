@@ -126,18 +126,24 @@ const Footer = () => {
             <div className="flex flex-col gap-4">
               <a
                 href="tel:+2203833126"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm">
                 <Phone className="h-4 w-4" />
                 <span>+220 383 3126</span>
               </a>
               <a
                 href="mailto:stylekingsandqueens2@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm">
                 <Mail className="h-4 w-4" />
                 <span>stylekingsandqueens2@gmail.com</span>
               </a>
               <a
-                href="https://www.google.com/maps/place/Banjul,+The+Gambia"
+                href="https://www.google.com/maps/place/13%C2%B027'10.8%22N+16%C2%B034'18.8%22W/@13.4529982,-16.5744552,17z/data=!3m1!4b1!4m4!3m3!8m2!3d13.4529982!4d-16.5718803?hl=en&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="flex items-center gap-3 text-primary-foreground/80 hover:text-accent transition-colors text-sm">
                 <MapPin className="h-4 w-4" />
                 <span>Banjul, The Gambia</span>
@@ -153,11 +159,15 @@ const Footer = () => {
               © Style Kings and Queens – All Rights Reserved <br />
               <strong>{currentYear}</strong>
             </p>
-            <p className="text-primary-foreground/60 text-sm">
+            <p className="text-primary-foreground/60 text-sm text-center">
               Designed and Developed by{" "}
-              <strong>
-                <a href="/home/yus">Yusupha Jeng</a>
-              </strong>
+              <a
+                href="https://yusupha-jeng-social-links-profile.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-silver underline underline-offset-2 hover:text-accent transition-colors">
+                <strong>Yusupha Jeng</strong>
+              </a>
             </p>
             <div className="flex gap-6 mt-6">
               <Link

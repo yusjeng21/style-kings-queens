@@ -187,6 +187,8 @@ const Contact = () => {
               <div className="space-y-4">
                 <a
                   href="tel:+2203833126"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-card rounded-lg shadow-custom-sm hover:shadow-custom-md transition-shadow">
                   <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center">
                     <Phone className="h-5 w-5 text-accent" />
@@ -238,7 +240,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://maps.app.goo.gl/8723456789012345"
+                  href="https://www.google.com/maps/place/13%C2%B027'10.8%22N+16%C2%B034'18.8%22W/@13.4529982,-16.5744552,17z/data=!3m1!4b1!4m4!3m3!8m2!3d13.4529982!4d-16.5718803?hl=en&entry=ttu&g_ep=EgoyMDI2MDIwNC4wIKXMDSoASAFQAw%3D%3D"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-4 p-4 bg-card rounded-lg shadow-custom-sm hover:shadow-custom-md transition-shadow">
