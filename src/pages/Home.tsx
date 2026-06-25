@@ -10,6 +10,7 @@ import { collections, testimonials, whatsappConfig } from "@/lib/data";
 import { useProducts } from "@/context/ProductContext";
 import heroImage from "@/assets/hero-fashion.jpg";
 import { useMemo } from "react";
+import Scroller from "@/components/ui/scroll-indicator";
 
 const Index = () => {
   const { products } = useProducts();
@@ -106,7 +107,10 @@ const Index = () => {
         </div>
 
         {/* Scroll Indicator */}
-        <motion.div
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-float">
+          <Scroller />
+        </div>
+        {/* <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1 }}
@@ -117,8 +121,9 @@ const Index = () => {
             className="w-6 h-10 border-2 border-gold-dark/30 rounded-full flex justify-center pt-2">
             <motion.div className="w-1.5 h-1.5 bg-gold-dark/50 rounded-full" />
           </motion.div>
-        </motion.div>
+        </motion.div> */}
       </section>
+
 
       {/* Featured Collections */}
       <section className="section-padding bg-background">
